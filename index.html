@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+    <head>
+        <title> Portfolio </title>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/style.css">
+        <script type="text/javascript" src="./js/script_courses.js"></script>  
+        <script type="text/javascript" src="./js/script_project.js"></script> 
+        <script type="text/javascript" src="./js/script_Internship.js"></script>
+        <script type="text/javascript" src="./js/script_other_details.js"></script>
+        <script type="text/javascript" src="./js/script_index.js"></script>
+        <script type="text/javascript" src="./js/script_details.js"></script>
+    </head>
+    <body>
+        <br>
+
+        
+        <div class="container mainframe">
+            <div class="row">
+                <br/>
+                <!--  Left panel - Start -->
+              <div class="col col1">
+                <div class="row">
+                    <img class="profileimg" src="./image/img-4.png" >
+                    &nbsp;
+                </div>
+
+                <!-- Contact Details -->
+
+                <div class="row">
+                  <button class="btn btn-success" onClick="onShowDetails()" id="details">Show Details</button>
+                </div>
+                <div class="row">
+                  <div id="area_details"><br/></div>
+                </div>
+
+                <!-- extra details -->
+
+                <div class="row">
+                  <div id="area_other_details"></div>
+                </div>
+
+                <!-- Index Top-->
+
+                <!-- <div class="row">
+                  <button class="btn btn-danger" onClick="OnShowIndex(0)" id="btn-index-0">Show Index</button>
+                </div>
+                <div class="row">
+                  <div id="area_index_top"><div style="height: 1200px;"></div></div>
+                </div>
+                
+                
+
+                <div class="row">
+                  <button class="btn btn-danger" onClick="OnShowIndex(2)" id="btn-index-2">Show index</button>
+                </div>
+                <div class="row">
+                  <div id="area_index_middle"><div style="height: 800px;"></div></div>
+                </div> -->
+
+
+              </div>
+              <!-- Left Panel - End -->
+              <div style="height: 1px;width: 10px;"></div>
+              <!-- Right Panel - Start -->
+              <div class="col col2">
+
+                <!-- Row - 1 -->
+
+                  <div class="row">
+                      <div class="card text-center">
+                          <div class="card-header side-heading" id="academic_details">
+                            Academic Details
+                          </div>
+                          <div class="card-body">
+                            
+                            <div class="row">
+                              <div class="col-sm-4">
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">10<sup>th</sup> Class</h5>
+                                    <p class="card-text">Sri Chaitanya e-techno school</p>
+                                    <a href="#" class="btn btn-primary">9.8 CGPA</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-sm-4">
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Intermediate</h5>
+                                    <p class="card-text">Narayana Junior College</p>
+                                    <a href="#" class="btn btn-primary">96.7 %</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-sm-4">
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">
+                                      <abbr style="text-decoration: None;cursor: pointer;" title="Bachelor of Technology">B.Tech</abbr> -
+                                      <abbr style="text-decoration: None;cursor: pointer;" title="Computer Science and Engineering">CSE</abbr>
+                                    </h5>
+                                    <p class="card-text" >
+                                       <abbr style="text-decoration: None;cursor: pointer;" title="Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering and Technology">VNR VJIET</abbr>
+                                    </p>
+                                    <a href="#" class="btn btn-primary">8.75 CGPA</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card-footer text-muted">                     
+                          </div>
+                        </div>
+                  </div>
+                  
+                <!-- Row - 2 -->
+                <div style="height: 10px;"></div>
+
+                <div class="row">
+                  <div class="card text-center">
+                      <div class="card-header side-heading" id="technical_skills">
+                        Technical Skills
+                      </div>
+                      <div class="card-body">
+                        <table class="table table-hover table-bordered">
+                          <tbody>
+                            <tr>
+                              <th scope="row">Programming Stack</th>
+                              <td> Core Java (J2SE) </td>
+                              <td> Python </td>
+                              <td> R (Basics) </td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Hands on Databases</th>
+                              <td>MySql</td>
+                              <td>MongoDb</td>
+                              <td>Sql Server</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Web Technology Stack</th>
+                              <td>Mean Stack</td>
+                              <td>HTML</td>
+                              <td>CSS</td>
+                              <td>JavaScript</td>                            
+                            </tr>
+                            <tr>
+                              <th scope="row">Side-Car Stack</th>
+                              <td>Kubernetes</td>
+                              <td>Linux (Basics)</td>
+                              <td> Jenkins </td>
+                              <td> Postman </td>
+                            </tr>
+                            <tr>
+                              <th scope="row"></th>
+                              <td>Tomcat Server</td>
+                              <td> Big Data </td>
+                              <td> React </td>
+                              <td> Flutter </td>
+                            </tr>
+                            <tr>
+                              <th scope="row"></th>
+                              <td colspan="4"><i style="color: rgb(196, 119, 119);font-size: 15px;font-weight: 500;">( Mean Stack - MongoDB, Express Framework, Angular , NodeJs )</i></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="card-footer text-muted">
+                        
+                      </div>
+                    </div>
+              </div>
+              
+                <!-- Row - 3 -->
+                <div style="height: 10px;"></div>
+
+                <div class="row">
+                  <div class="card text-center">
+                      <div class="card-header side-heading" id="certificate_courses">
+                        <span onclick="expand()" style="cursor: pointer;">Certification Courses</span>
+                      </div>
+                      <div class="card-body">
+                        <!-- Inside card body -->
+                        
+                        <div id="c_courses">Please click on Certification Courses name</div>
+
+                        <!-- exit of card body -->
+                      </div>
+                      <div class="card-footer text-muted">
+                      </div>
+                    </div>
+              </div>
+              
+                <!-- Row - 4 -->
+                <div style="height: 10px;"></div>
+                <div class="row">
+                  <div class="card text-center">
+                      <div class="card-header side-heading" id="industrial_visits">
+                        Industrial Visits
+                      </div>
+                      <div class="card-body" style="background-color: rgb(228, 228, 182);">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">Visited TCS for one day</h5>
+                                <p class="card-text">Got the glimpse of work environment and the culture of IT company</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">Visited INCOIS for one day</h5>
+                                <p class="card-text">Got the insight on their predictions about the natural calamities</p>                            
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <div class="card-footer text-muted">
+                      </div>
+                    </div>
+              </div>
+              
+                <!-- Row - 5 -->
+                <div style="height: 10px;"></div>
+
+                <div class="row">
+                  <div class="card " style="background-color: rgb(214, 233, 226);">
+                      <div class="card-header text-center side-heading" id="working_experience">
+                        Working Experience
+                      </div>
+                      <div class="card-body">
+                        <div class="card">
+                          <div class="card-header" style="font-size: large;font-weight: 600;">
+                            DXC TECHNOLOGY 
+                          </div>
+                          <div class="card-body ">
+                            <h5 class="card-title" style="font-weight: 500;" >Associate Professional Software Engineer  <i style="font-size: 13px;font-weight: 450;"> (worked for an client of Insurance Company)</i></h5>
+                            <p class="card-text"><b style="font-weight: 500;" >Worked on :</b> UI developing, Automation, Scripting</p>
+                            <i><b style="font-weight: 500;">Key technologies :</b> JSP, SQL SERVER, JIRA </i><br/><br/>
+                            <h5  class="btn btn-primary">01-2021</h5> &nbsp; <h6 class="btn btn-danger">10-2021</h6> 
+                          </div>
+                        </div>
+                        <br/>
+                        <div class="card">
+                          <div class="card-header" style="font-size: large; font-weight: 600;">
+                            EDGEVERVE SYSTEMS
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title" style="font-weight: 500;">Associate Product Developer  <i style="font-size: 13px;font-weight: 450;"> (working for Finacle Core Banking Solution ) </i> </h5>
+                            <p class="card-text"><b style="font-weight: 500;">Worked on :</b> API Building, Enhancements, UI/UX Designing, UTP, Automation</p>
+                             <i> <b style="font-weight: 500;">Key technologies :</b> ANGULAR, Java, OracleDb, Python</i> <br/><br/>
+                            <h5  class="btn btn-primary">10-2021</h5>&nbsp;<h6 href="#" class="btn btn-success">Currently working</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer text-muted">
+                      </div>
+                    </div>
+              </div>
+              
+                <!-- Row - 6 -->
+                <div style="height: 10px;"></div>
+
+                <div class="row">
+                  <div class="card ">
+                      <div class="card-header text-center side-heading" id="personal_projects">
+                        Personal Projects
+                      </div>
+                      <div class="card-body">
+                        <div id="temp"></div>
+                        <div class="card " >
+                          <div class="card-header alert-warning">
+                            <ul class="nav nav-tabs card-header-tabs " >
+                              <li class="nav-item" onclick="onProjectArea(0)" id="area0" >
+                                <h6 class="nav-link set-cursor" >Hangman</h6>
+                              </li>
+                              <li>&nbsp;</li>
+                              <li class="nav-item " onclick="onProjectArea(1)" id="area1">
+                                <h6 class="nav-link set-cursor">Quiz</h6>
+                              </li>
+                              <li>&nbsp;</li>
+                              <li class="nav-item" onclick="onProjectArea(2)" id="area2">
+                                <h6 class="nav-link set-cursor" >Bingo</h6>
+                              </li>
+                              <li>&nbsp;</li>
+                              <li class="nav-item" onclick="onProjectArea(3)" id="area3">
+                                <h6 class="nav-link set-cursor" >EBV</h6>
+                              </li>
+                              <li>&nbsp;</li>
+                              <li class="nav-item btn-danger" onclick="onProjectArea(-1)" id="area3">
+                                <h6 class="nav-link set-cursor" >Close All</h6>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="card-body" style="background-color: rgb(51, 40, 49);color: white;" id="project_area">
+                            <p class="text-center">Click on above projects for detailed description</p>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="card-footer text-muted">
+                      </div>
+                    </div>
+              </div>
+              
+                <!-- Row - 7 -->
+                <div style="height: 10px;"></div>
+
+                <div class="row">
+                  <div class="card ">
+                      <div class="card-header text-center side-heading" id="internships">
+                        Internships
+                      </div>
+                      <div class="card-body">
+                        <div class="container">
+                          <div class="col">
+                            <div class="row-sm">
+                              <div class="card set-cursor" onclick="onInternship(0)">
+                                <div class="card-body">
+                                   Cyber Inspector Intern <i>~ CID office  </i>
+                                </div>
+                                <div id="intern0"></div>
+                              </div>
+                            </div>
+                            <div class="row-sm">
+                              <div class="card set-cursor" onclick="onInternship(1)">
+                                <div class="card-body">
+                                  Data Engineer Intern <i>~ Amazon </i>
+                                </div>
+                                <div id="intern1"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer text-muted">
+                      </div>
+                    </div>
+              </div>
+              
+                <!-- Row - 8 -->
+                <div style="height: 10px;"></div>
+
+                <div class="row">
+                  <div class="card text-center ">
+                      <div class="card-header side-heading"  id="other_activities" >
+                      Other Activities
+                      </div>
+                      <div class="card-body">
+
+                        
+                        <div class="container">
+                          <div class="row ">
+                            <div class="col-1"></div>
+                            <div class="col-5 text-center">
+                              <div class="card" style="width: 18rem;background-color: rgb(185, 178, 178);">
+                                <div class="card-header">
+                                  Achievements:
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item activity">Won the Fresher’s cup in the Cricket Tournament held in our college</li>
+                                  <li class="list-group-item activity">Won 2nd prize by scoring of 1587 points (out of 2000) in the coding challenge conducted by the AB
+                                    Apps & Games and received the HONOR CODE Certificate for the same</li>                                
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-6">
+                              <div class="card" style="width: 18rem;background-color: rgb(185, 178, 178);">
+                                <div class="card-header">
+                                  Extra-curricular Activities:
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item activity">Member of Computer Science India</li>
+                                  <li class="list-group-item activity">Member of National Service Scheme</li>
+                                  <li class="list-group-item activity">Served as the volunteer for sportsfest in VNRVJIET.</li>
+                                  <li class="list-group-item activity">Worked as volunteer for Time Management of our Technical Fest.</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="card-footer text-muted">
+                      </div>
+                    </div>
+              </div>
+              
+                <!-- Row - 9
+                <div style="height: 10px;"></div>
+
+                <div class="row">
+                  <div class="card text-center">
+                      <div class="card-header side-heading">
+                        Header
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                      <div class="card-footer text-muted">
+                        2 days ago
+                      </div>
+                    </div>
+              </div> -->
+
+              
+
+              </div>
+              <!-- Right panel - end -->
+              <div style="height: 1px;width: 10px;"></div>
+
+              <div class="col-1 col3">
+                <div style="position: fixed;">
+                  
+                  <button class="btn btn-outline-warning"> 
+                    <a href="./RESUME-AKHIL.pdf" download class="btn-download" >
+                      Download (pdf format)
+                    </a>
+                  </button>
+                  <br/>
+                  <br/>
+                  <button class="btn btn-danger" onclick="OnShowIndex(0)" id="btn-index-0">Show Index</button>
+                  <div id="area_index_side"></div>
+                  
+                  
+                </div>
+              </div>
+            </div>
+        </div>
+    </body>
+</html>

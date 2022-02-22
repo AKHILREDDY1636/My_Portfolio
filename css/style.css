@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(24, 21, 21);
+}
+.mainframe {
+  margin-left: 3%;
+}
+
+.col1 {
+  /* background-color: rgb(41, 38, 38); */
+  max-width: 20%;
+}
+
+.profileimg {
+  border-radius: 100%;
+}
+.col2 {
+  background-color: rgb(24, 21, 21);
+  max-width: 100%;
+  margin-right: 0px;
+}
+.col3 {
+  margin-right: 0px;
+}
+.row1 {
+  color: azure;
+}
+.side-heading {
+  background-color: rgb(156, 126, 126);
+  font-weight: 500;
+  font-size: large;
+  color: whitesmoke;
+}
+.set-cursor {
+  cursor: pointer;
+}
+.set-cursor:hover {
+  background-color: rgb(109, 121, 109);
+  color: white;
+}
+.card.set-cursor:hover {
+  background-color: rgb(31, 41, 31);
+  color: white;
+}
+.activity {
+  background-color: rgb(247, 228, 205);
+}
+a {
+  text-decoration: none;
+}
+.btn-download {
+  color: white;
+}
+.btn-download:hover {
+  color: black;
+}
