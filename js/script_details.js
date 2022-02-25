@@ -1,6 +1,6 @@
 check_show_details = false;
 details_text =
-  '<br/> <div class="card" style="width: 15rem;"><div class="card-header"><b>Profile</b></div>' +
+  '<br/> <div class="card" style="width: 13rem;"><div class="card-header"><b>Profile</b></div>' +
   '<ul class="list-group list-group-flush">' +
   '<li class="list-group-item">9100718922</li>' +
   '<li class="list-group-item" style="font-size: 13px;">akhilreddy.donakonda@gmail.com</li>' +
@@ -35,7 +35,7 @@ function onOtherDetails() {
   check = !check;
   if (check === true) {
     text =
-      '<div class="card" style="width: 15rem;background-color:white"><div class="card-header"><b>Details</b></div>' +
+      '<div class="card" style="width: 13rem;background-color:white"><div class="card-header"><b>Details</b></div>' +
       '<ul class="list-group list-group-flush">';
     for (var i of arr) {
       var temp = i.split(":");
