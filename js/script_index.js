@@ -1,7 +1,7 @@
 check_show_arr = [false, false];
 index =
   "<br/> " +
-  '<div class="card" style="width: 12rem;"><div class="card-header">INDEX</div>' +
+  '<div class="card" style="width: 11rem;"><div class="card-header">INDEX</div>' +
   '<ul class="list-group list-group-flush">' +
   '<li class="list-group-item" ><a href="#academic_details">Academic Details</a></li>' +
   '<li class="list-group-item"><a href="#technical_skills">Technical Skills</a></li>' +
