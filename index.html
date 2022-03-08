@@ -419,18 +419,24 @@
 
               <div class="col-1 col3">
                 <div style="position: fixed;">
-                  
-                  <button class="btn btn-outline-warning"> 
-                    <a href="./resume.jpg" download class="btn-download" >
-                      Download (pdf format)
-                    </a>
-                  </button>
+                  <div class="dropdown">
+                    <button class="btn btn-outline-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Download
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item btn-download" href="./resumes/Resume_pdf.pdf" download>.pdf format</a>
+                      <a class="dropdown-item btn-download" href="./resumes/Resume_jpg.jpg" download>.jpg format</a>
+                      <a class="dropdown-item btn-download" href="./resumes/Resume_png.png" download>.png format</a>
+                    </div>
+                  </div>
+                  <br/>
+                  <br/>
+                  <br/>
                   <br/>
                   <br/>
                   <button class="btn btn-danger" onclick="OnShowIndex(0)" id="btn-index-0">Show Index</button>
                   <div id="area_index_side"></div>
-                  
-                  
+  
                 </div>
               </div>
             </div>

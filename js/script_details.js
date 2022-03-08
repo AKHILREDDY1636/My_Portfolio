@@ -3,7 +3,7 @@ details_text =
   '<br/> <div class="card" style="width: 13rem;"><div class="card-header"><b>Profile</b></div>' +
   '<ul class="list-group list-group-flush">' +
   '<li class="list-group-item">9100718922</li>' +
-  '<li class="list-group-item" style="font-size: 13px;">akhilreddy.donakonda@gmail.com</li>' +
+  '<li class="list-group-item" style="font-size: 13px;">akhilreddy.donakonda<i style="font-size: 7px;" >@gmail.com</i></li>' +
   '<li class="list-group-item "><button class="btn btn-dark" onClick="onOtherDetails()" id="other_details">Show other Details</button></li>' +
   "</ul></div> <br/>";
 
